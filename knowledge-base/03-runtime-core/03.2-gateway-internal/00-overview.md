@@ -361,4 +361,4 @@ Gateway 内部编排由 6 类组件协作:
 | Control UI 后端 | [src/gateway/control-ui.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/control-ui.ts) |
 | 凭据规划器 | [src/gateway/credential-planner.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/credential-planner.ts) |
 | 渠道健康监控 | [src/gateway/channel-health-monitor.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/channel-health-monitor.ts) |
-| 执行审批 | [src/gateway/exec-approval.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/exec-approval.ts) |
+| 执行审批 | [src/gateway/server-methods/exec-approval.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/server-methods/exec-approval.ts) |

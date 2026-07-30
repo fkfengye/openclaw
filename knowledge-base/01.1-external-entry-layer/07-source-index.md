@@ -28,7 +28,7 @@
    │                                                          │
    │ • 职责:进程入口 + 环境规范化 + 第二次 fast-path 兜底    │
    │ • 约束:isMainModule 守卫防重复执行                       │
-   │ • 文件数:5(主入口 + 4 个辅助模块)                      │
+   │ • 文件数:4(主入口 + 3 个辅助模块)                      │
    └──────────────────────────┬───────────────────────────────┘
                               ▼
    ┌──────────────────────────────────────────────────────────┐
@@ -77,7 +77,7 @@
 | 源码分层 | 职责 | 关键约束 | 文件数 |
 |---|---|---|---|
 | **Launcher 层(纯 JS)** | npm bin 入口 + 前置守卫 + 启动器 fast-path | 单文件,无法 import TS 代码 | 1 |
-| **Entry 层(TS bundle 入口)** | 进程入口 + 环境规范化 + 第二次 fast-path 兜底 | isMainModule 守卫防重复执行 | 5 |
+| **Entry 层(TS bundle 入口)** | 进程入口 + 环境规范化 + 第二次 fast-path 兜底 | isMainModule 守卫防重复执行 | 4 |
 | **CLI 子层** | Commander 编排 + argv/profile/container 解析 + respawn 跳过策略 + 预计算 help/metadata 读取 | 命令树编排是入口层终点 | 13+ |
 | **Infra 层** | runtime 守卫 + isMainModule + warning filter + env/git/path/cwd 基础设施 | 被多层共享,职责单一 | 11+ |
 | **Process 层** | child process 信号桥接 + respawn child 运行器 | parent/child 进程间协作专用 | 2 |

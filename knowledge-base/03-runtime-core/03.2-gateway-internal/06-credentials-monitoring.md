@@ -513,8 +513,8 @@ Telegram 渠道连续投递失败 3 次
 | 定时流任务所有者 | [src/gateway/cron-stream-job-owner.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/cron-stream-job-owner.ts) |
 | 定时退出监视壳 | [src/gateway/cron-exit-watch-shell.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/cron-exit-watch-shell.ts) |
 | 定时退出监视器 | [src/gateway/cron-exit-watchers.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/cron-exit-watchers.ts) |
-| 执行审批主入口 | [src/gateway/exec-approval.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/exec-approval.ts) |
-| 执行审批集合 | [src/gateway/exec-approvals.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/exec-approvals.ts) |
+| 执行审批主入口 | [src/gateway/server-methods/exec-approval.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/server-methods/exec-approval.ts) |
+| 执行审批集合 | [src/gateway/server-methods/exec-approvals.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/server-methods/exec-approvals.ts) |
 | 执行审批管理器 | [src/gateway/exec-approval-manager.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/exec-approval-manager.ts) |
 | 执行审批 iOS 推送 | [src/gateway/exec-approval-ios-push.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/exec-approval-ios-push.ts) |
 | 节点唤醒状态存储 | [src/gateway/node-wake-state-store.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/node-wake-state-store.ts) |

@@ -240,7 +240,7 @@
     │ 风险 8: Cron 子系统复杂                                    │
     │ 严重度: 低(待精读)                                       │
     │ 证据:                                                       │
-    │  • server-cron-*.ts 7 个文件                                │
+    │  • server-cron-*.ts 5 个文件                                │
     │  • 多个测试 helper 与 interleavings 测试                    │
     │ 待精读:                                                     │
     │  • Cron 任务的持久化                                        │

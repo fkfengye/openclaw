@@ -389,7 +389,7 @@ Gateway 启动
 |---|---|
 | 00-overview.md | Provider 抽象层总览 |
 | 01-provider-core.md | 本文件 — Provider 核心:注册表 / 主机策略 / 密钥 / 选项 / 资源 / 流 / 类型 / 校验 |
-| [02-provider-implementations.md](file:///d:/DevSpace/person/ai_space/openclaw/knowledge-base/02-foundation-layer/02.4-ai-providers/02-provider-implementations.md) | Provider 实现:9 个厂商适配器 |
+| [02-provider-implementations.md](file:///d:/DevSpace/person/ai_space/openclaw/knowledge-base/02-foundation-layer/02.4-ai-providers/02-provider-implementations.md) | Provider 实现:10 个厂商适配器 |
 | 03-transports.md | 传输层:流式解析 / fetch 守卫 / 路由分发 |
 | 04-utils-internal.md | 工具与内部:溢出 / 缓存 / 错误 / OAuth / 内部适配器 |
 

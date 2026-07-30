@@ -325,6 +325,6 @@ Agent Runner 通过依赖注入接收 logger / store 等,测试时可替换为 s
 | Agent Runner 主流程 | [src/agents/agent-command.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/agents/agent-command.ts) |
 | 终态归一化器 | [src/agents/agent-run-terminal-outcome.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/agents/agent-run-terminal-outcome.ts) |
 | Lane 调度器 | [src/gateway/server-lanes.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/server-lanes.ts) |
-| 回复分发器 | src/agents/wired-hooks-reply-dispatch.ts |
+| 回复分发器 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runReplyDispatch) |
 | Per-agent 状态库 | agents/<agentId>/agent/openclaw-agent.sqlite |
 | AGENTS.md 硬约束来源 | [AGENTS.md](file:///d:/DevSpace/person/ai_space/openclaw/AGENTS.md) "Architecture" 段 |

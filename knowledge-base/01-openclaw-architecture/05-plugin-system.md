@@ -400,11 +400,11 @@ Gateway 启动阶段 5(插件加载)
 | 模型路由 | [src/plugins/provider-model-routes.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/provider-model-routes.ts) |
 | Tool 注册入口 | [src/plugins/tools.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/tools.ts) |
 | Tool 描述符缓存 | [src/plugins/tool-descriptor-cache.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/tool-descriptor-cache.ts) |
-| Hook:消息收发 | [src/plugins/wired-hooks-message.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-message.ts) |
-| Hook:LLM 调用前后 | [src/plugins/wired-hooks-llm.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-llm.ts) |
-| Hook:会话生命周期 | [src/plugins/wired-hooks-session.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-session.ts) |
-| Hook:回复派发 | [src/plugins/wired-hooks-reply-dispatch.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-reply-dispatch.ts) |
-| Hook:Gateway 生命周期 | [src/plugins/wired-hooks-gateway.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-gateway.ts) |
+| Hook:消息收发 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runMessageSending/runMessageSent) |
+| Hook:LLM 调用前后 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runModelCallStarted/runLlmInput/runLlmOutput) |
+| Hook:会话生命周期 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runSessionStart/runSessionEnd) |
+| Hook:回复派发 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runReplyDispatch) |
+| Hook:Gateway 生命周期 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runGatewayStart/runGatewayStop) |
 | 公共表面:加载侧 | [src/plugins/public-surface-loader.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/public-surface-loader.ts) |
 | 公共表面:运行时 | [src/plugins/public-surface-runtime.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/public-surface-runtime.ts) |
 | 插件目录边界规则 | [src/plugins/AGENTS.md](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/AGENTS.md) |

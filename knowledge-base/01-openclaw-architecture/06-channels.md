@@ -426,7 +426,7 @@
 | 持久化投递器 | [src/channels/turn/durable-delivery.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/turn/durable-delivery.ts) |
 | Bot 循环保护器 | [src/channels/turn/bot-loop-protection.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/turn/bot-loop-protection.ts) |
 | 历史窗口 | [src/channels/turn/history-window.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/turn/history-window.ts) |
-| 消息回合护栏 | [src/channels/turn/message-turn-guardrails.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/turn/message-turn-guardrails.ts) |
+| 消息回合护栏 | 已删除,拆解到各 extension 本地实现(见 `src/channels/turn/message-turn-guardrails.test.ts` 迁移清单) |
 | 传输 stall 检测器 | [src/channels/transport/stall-watchdog.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/transport/stall-watchdog.ts) |
 | DM 配对门 | [src/channels/plugins/pairing.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/pairing.ts) |
 | DM 配对适配 | [src/channels/plugins/pairing-adapters.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/pairing-adapters.ts) |
@@ -434,11 +434,11 @@
 | 线程绑定 API | [src/channels/plugins/thread-binding-api.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/thread-binding-api.ts) |
 | 出站加载 | [src/channels/plugins/outbound/load.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/outbound/load.ts) |
 | 展示限制 | [src/channels/plugins/outbound/presentation-limits.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/outbound/presentation-limits.ts) |
-| 消息动作 | [src/channels/plugins/message-actions.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/message-actions.ts) |
+| 消息动作 | [src/channels/plugins/message-action-discovery.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/plugins/message-action-discovery.ts) |
 | 运行状态机 | [src/channels/run-state-machine.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/run-state-machine.ts) |
 | 路由投影 | [src/channels/route-projection.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/route-projection.ts) |
-| Hook:入站认领 | [src/plugins/wired-hooks-inbound-claim.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-inbound-claim.ts) |
-| Hook:回复派发 | [src/plugins/wired-hooks-reply-dispatch.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-reply-dispatch.ts) |
-| Hook:回复发送 | [src/plugins/wired-hooks-reply-payload-sending.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/wired-hooks-reply-payload-sending.ts) |
+| Hook:入站认领 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runInboundClaim) |
+| Hook:回复派发 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runReplyDispatch) |
+| Hook:回复发送 | [src/plugins/hooks.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/plugins/hooks.ts)(runReplyPayloadSending) |
 | 通道目录边界规则 | [src/channels/AGENTS.md](file:///d:/DevSpace/person/ai_space/openclaw/src/channels/AGENTS.md) |
 | AGENTS.md 硬约束来源 | [AGENTS.md](file:///d:/DevSpace/person/ai_space/openclaw/AGENTS.md) "Architecture" 段 |

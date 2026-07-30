@@ -420,8 +420,8 @@
 | 组件 | 源码位置 |
 |---|---|
 | 配置加载(三步入口) | [src/config/io.load.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/config/io.load.ts) |
-| 配置迁移器 | [src/config/migrate.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/config/migrate.ts) |
-| 配置校验器 | [src/config/validate.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/config/validate.ts) |
+| 配置迁移器 | [src/config/legacy.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/config/legacy.ts) |
+| 配置校验器 | [src/config/validation.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/config/validation.ts) |
 | 热重载入口 | [src/gateway/config-reload.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/config-reload.ts) |
 | 热重载计划 | [src/gateway/config-reload-plan.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/config-reload-plan.ts) |
 | 配置 diff | [src/gateway/config-diff.ts](file:///d:/DevSpace/person/ai_space/openclaw/src/gateway/config-diff.ts) |
